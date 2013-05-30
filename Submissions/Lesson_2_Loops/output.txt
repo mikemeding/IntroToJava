@@ -1,0 +1,11 @@
+***URL TRANSLATOR OUTPUT***
+Input URL: This should have hex 2f for /
+Output URL: This+should+have+hex+2f+for+%2f
+Input URL: An encoded + should be hex 2b
+Output URL: An+encoded+%2b+should+be+hex+2b
+Input URL: 123 and _-.* are unchanged
+Output URL: 123+and+_-.*+are+unchanged
+Input URL: Angles, equals, question, ampersand > < = ? &
+Output URL: Angles%2c+equals%2c+question%2c+ampersand+%3e+%3c+%3d+%3f+%26
+Input URL: This is my own example wooo!
+Output URL: This+is+my+own+example+wooo%21

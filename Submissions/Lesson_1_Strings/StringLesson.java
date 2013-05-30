@@ -1,4 +1,4 @@
-package Lesson_1_Strings;
+
 
 import java.io.BufferedWriter;
 import java.io.File;

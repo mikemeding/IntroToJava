@@ -1,0 +1,5 @@
+***URL TRANSLATOR OUTPUT***
+Input URL: blah blahb blahb
+Output URL: blah+blahb+blahb
+Input URL: hoooo ohoo
+Output URL: hoooo+ohoo
