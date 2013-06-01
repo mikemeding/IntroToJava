@@ -1,4 +1,4 @@
-package Lesson_3_Classes;
+
 
 /**
  * MyTime - a simple time class

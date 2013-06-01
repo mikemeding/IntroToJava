@@ -1,4 +1,4 @@
-package Lesson_3_Classes;
+
 
 /**
  * MyTimeDemo - tests the MyTime class

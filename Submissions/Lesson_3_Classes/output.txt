@@ -1,0 +1,107 @@
+// POJO CLASS PROGRAM OUTPUT
+
+Enter hour minute and second (-1 to exit)
+10
+20
+30
+
+Values read were: 10 20 30
+10:20:30 AM
+10:20:30
+hour is 10  minute is 20  second is 30
+
+Enter hour minute and second (-1 to exit)
+1  
+1
+1
+
+Values read were: 1 1 1
+01:01:01 AM
+01:01:01
+hour is 1  minute is 1  second is 1
+
+Enter hour minute and second (-1 to exit)
+13
+1
+1
+
+Values read were: 13 1 1
+01:01:01 PM
+13:01:01
+hour is 13  minute is 1  second is 1
+
+Enter hour minute and second (-1 to exit)
+0  
+0
+0
+
+Values read were: 0 0 0
+12:00:00 AM
+00:00:00
+hour is 0  minute is 0  second is 0
+
+Enter hour minute and second (-1 to exit)
+23
+59
+59
+
+Values read were: 23 59 59
+11:59:59 PM
+23:59:59
+hour is 23  minute is 59  second is 59
+
+Enter hour minute and second (-1 to exit)
+12
+0
+0
+
+Values read were: 12 0 0
+12:00:00 PM
+12:00:00
+hour is 12  minute is 0  second is 0
+Matches noon time
+
+Enter hour minute and second (-1 to exit)
+24
+30
+15
+
+Values read were: 24 30 15
+12:00:00 AM
+00:00:00
+hour is 0  minute is 0  second is 0
+
+Enter hour minute and second (-1 to exit)
+12
+60
+15
+
+Values read were: 12 60 15
+12:00:00 AM
+00:00:00
+hour is 0  minute is 0  second is 0
+
+Enter hour minute and second (-1 to exit)
+12
+30
+60
+
+Values read were: 12 30 60
+12:00:00 AM
+00:00:00
+hour is 0  minute is 0  second is 0
+
+Enter hour minute and second (-1 to exit)
+23
+59
+59
+
+Values read were: 23 59 59
+11:59:59 PM
+23:59:59
+hour is 23  minute is 59  second is 59
+
+Enter hour minute and second (-1 to exit)
+-1
+
+Done - press enter key to end program
