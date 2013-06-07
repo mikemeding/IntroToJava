@@ -1,4 +1,4 @@
-package Lesson_4_Classes_Part2;
+
 
 /**
  * MyUrlDemo - Tests the MyUrl class

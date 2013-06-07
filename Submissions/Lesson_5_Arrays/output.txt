@@ -1,0 +1,29 @@
+// output for array sort program
+// Mike Meding
+
+Enter the size of the array (3 to 10): 11
+Input incorrect, must be of type [int] and between 3 - 10.
+Enter the size of the array (3 to 10): 3
+Enter value for element 1: 5
+Enter value for element 2: 7
+Enter value for element 3: 6
+The unsorted values...
+5 7 6 
+The sorted values....
+5 6 7 
+Again?(y/n):y
+Enter the size of the array (3 to 10): 9
+Enter value for element 1: 1000
+Enter value for element 2: -200
+Enter value for element 3: 500
+Enter value for element 4: 150
+Enter value for element 5: 600
+Enter value for element 6: 800
+Enter value for element 7: 150
+Enter value for element 8: 50
+Enter value for element 9: -25
+The unsorted values...
+1000 -200 500 150 600 800 150 50 -25 
+The sorted values....
+-200 -25 50 150 150 500 600 800 1000 
+Again?(y/n):n

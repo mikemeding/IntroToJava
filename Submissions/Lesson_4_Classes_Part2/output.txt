@@ -1,0 +1,68 @@
+// POJO CLASS PROGRAM 2 OUTPUT
+// Mike Meding
+
+Enter URL site (or 'exit')...
+www.boston.com
+Url value read was: www.boston.com
+Enter URL argument name (or 'done')...
+done
+URL with appended arguments is:
+  http://www.boston.com
+
+Enter URL site (or 'exit')...
+www.bookpool.com
+Url value read was: www.bookpool.com
+Enter URL argument name (or 'done')...
+publisher
+Enter type of argument value (string, integer, double)...
+s
+Enter a string value
+Addison & Wesley
+Enter URL argument name (or 'done')...
+title
+Enter type of argument value (string, integer, double)...
+s
+Enter a string value
+e=mc2 ?
+Enter URL argument name (or 'done')...
+price
+Enter type of argument value (string, integer, double)...
+d
+Enter a double value
+19.95
+Enter URL argument name (or 'done')...
+done
+URL with appended arguments is:
+  http://www.bookpool.com?publisher=Addison+%26+Wesley&title=e%3dmc2+%3f&price=19.95
+
+Enter URL site (or 'exit')...
+http://www.amazon.com
+Url value read was: http://www.amazon.com
+Enter URL argument name (or 'done')...
+pubdate
+Enter type of argument value (string, integer, double)...
+s
+Enter a string value
+6/2000
+Enter URL argument name (or 'done')...
+title
+Enter type of argument value (string, integer, double)...
+s
+Enter a string value
+History of M & M's
+Enter URL argument name (or 'done')...
+SKU#
+Enter type of argument value (string, integer, double)...
+i 
+Enter an integer value
+12345
+Enter URL argument name (or 'done')...
+done
+URL with appended arguments is:
+  http://www.amazon.com?pubdate=6%2f2000&title=History+of+M+%26+M%27s&SKU%23=12345
+
+Enter URL site (or 'exit')...
+exit
+
+Done - press enter key to end program
+
