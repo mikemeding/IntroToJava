@@ -5,6 +5,7 @@
  * The ArrayUtils class and BadArrayException class must be compiled
  * before this class can be compiled.
  */
+
 import java.util.Scanner;
 
 public class ArrayUtilsDemo

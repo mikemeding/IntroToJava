@@ -137,20 +137,16 @@ public class ArrayUtils {
         if (list.length == 0) {
             return -1;
         }
-
-        int index = list[0];
-        int again = 0;
+        
         int validIndex = -1;
 
         // repeat for the length of the array
-        while (again < list.length) {
+	int x;
+        for(x = 0; x < list.length;x++){
             // check to see if current index is correct
-            if (searchValue == list[again]) {
-                validIndex = again;
-            } else {
-                again++;
-                index = list[again];
-            }
+            if (searchValue == list[x]) {
+                validIndex = x;		
+            } 
         }
 
         return validIndex;
