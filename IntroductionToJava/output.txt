@@ -1,5 +1,7 @@
-***URL TRANSLATOR OUTPUT***
-Input URL: blah blahb blahb
-Output URL: blah+blahb+blahb
-Input URL: hoooo ohoo
-Output URL: hoooo+ohoo
+some badly formatted text 
+asl;kdfjs
+ldksfj holy crap this text is bad
+does this array list work?
+123451234512345123451234512345
+1234512345123451234512345 12345
+thisstupidlinehastobelongerthan30charactersbecauseifitisntIhavenoideawhatiwoulddo.
