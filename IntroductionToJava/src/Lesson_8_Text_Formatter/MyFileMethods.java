@@ -103,44 +103,19 @@ public class MyFileMethods {
      *
      * @param fileName the name or path represented as a string of the output
      * file
+     * @param stringInput is the full string that needs to be written to the file.
      * @param stringInput the data to be written to the file as one string
      */
     public void SaveStringToFile(String fileName, String stringInput) {
 	//using a relative file path.
 	File file = new File(fileName);
-
-	// ADD PROMPT TO OVERWRITE!!!!
-	
-	
-	// START FIXING HERE.
-	// add overwrite stuff in the main method with input file stuff.
-	
-	
-	
-	
-	
-	
+        
 	try {
-	    // check for file existance and prompt for overwrite if it does
-	    while (file.exists()) {
-		System.err.print("File Exists. Overwrite? (y/n) -> ");
-		String overwriteCondition = input.nextLine();
-		// if they enter yes or no to overwriting file
-		if (overwriteCondition.equals("y") || overwriteCondition.equals("Y")) {
-		    file.delete(); // remove file		   
-		} else {
-		    fileName = NewFileName("New Output"); // sets new fileName
-		}
-	    }
-
-	    // finally create the stupid file.
-	    file.createNewFile();
-
 	    //create buffered output stream
 	    FileWriter fw = new FileWriter(file.getAbsoluteFile());
 	    BufferedWriter bw = new BufferedWriter(fw);
 
-	    bw.write(stringInput); //actually write to file.
+	    bw.write(stringInput); //actually write to file. 
 
 	    bw.close(); //close I/O stream.
 
